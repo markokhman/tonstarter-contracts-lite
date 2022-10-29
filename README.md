@@ -1,6 +1,8 @@
-# TON Starter Template - Contracts
+# TON Starter Template - Contracts [Lite version]
 
 > Starter template for a new TON project - FunC contracts, JS tests, compilation and deployment scripts
+
+> This repository is based on the core Boilerplate https://github.com/ton-defi-org/tonstarter-contracts
 
 ## Overview
 
