@@ -21,8 +21,6 @@
 () recv_internal(int msg_value, cell in_msg, slice in_msg_body) impure {
   int reserve_fee = 50 * 1000 * 1000; ;; hold 0.05 TON from each transaction as a reserve for rent and transaction fees
 
-  var [balance, _] = get_balance();
-
   var (address1, address2) = load_data();
   int return_value = (msg_value - reserve_fee) / 2;
 
